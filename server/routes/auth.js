@@ -9,7 +9,7 @@ const {JWT_SECRET} = require('../config/keys');
 const nodemailer = require('nodemailer');
 const sendgridTransport = require('nodemailer-sendgrid-transport');
 const {SENDGRID_API,EMAIL} = require('../config/keys')
-//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  <-- My Email API
+// SendGrid API key is now loaded from environment variables via config/keys.js
 /*const requireLogin = require('../middleware/requireLogin');
 router.get('/protected',requireLogin,(req,res)=>{
     //requireLogin is a middleware which is checking if the user is an authorized one 
